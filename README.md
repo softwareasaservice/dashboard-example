@@ -2,28 +2,31 @@
 
 This repo can be cloned, or  click the `use this template` to create your own repo containing a React app with the 10 odd lines needed to launch a customer dashboard for your SaaS.
 
-You can see the final result on https://importsaas-dashboard-demo.onrender.com/ which is hosted on render
+## What does `yarn && yarn build` on this repo do?
 
-Once deployed if you want to allow google based login, St the `.env` 
+You can see the final result on https://importsaas-dashboard-demo.onrender.com/ which is hosted on Render
+
+## What does setting REACT_APP_GOOGLE_CLIENT_ID env on this repo do? 
+
+if you want to allow google based login, Set the `.env` 
 
     REACT_APP_GOOGLE_CLIENT_ID=xxxxx.apps.googleusercontent.com
 
-You can see the Google Authenticated example https://importsaas-dashboard-example.onrender.com/ which is hosted on render.
+Once deployed, you can get Google Authenticated. example at https://importsaas-dashboard-example.onrender.com
 
-Here is how it looks.
+# How it works?
+
+In other words, with this package in your React app - a few lines of code automagically adds the following pages to your React app
 
 ![image](https://github.com/importsaas/screenshots/raw/main/dashboard/apikeys-1.png)
 
-
-In other words, with this package in your React app - one `dashboard` snippet automagically adds the following pages to your react app
-
-- /tour
 - /settings
 - /apikeys
 - /team
-- /forums
 - /login
 - /logout
+- /tour (WIP)
+- /forums (WIP)
 
 ## Why use this package
 

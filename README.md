@@ -1,6 +1,16 @@
-# @softwareasaservice/dashboard
+# SaaS app in 30 seconds
 
-Below is an example of how to use [@softwareasaservice/dashboard](https://github.com/softwareasaservice/dashboard) to create a dashboard for your SaaS in under a minute
+This repo can be cloned, or  click the `use this template` to create your own repo containing a React app with the 10 odd lines needed to launch a customer dashboard for your SaaS.
+
+You can see the final result on https://importsaas-dashboard-demo.onrender.com/ which is hosted on render
+
+Once deployed if you want to allow google based login, St the `.env` 
+
+    REACT_APP_GOOGLE_CLIENT_ID=xxxxx.apps.googleusercontent.com
+
+You can see the Google Authenticated example https://importsaas-dashboard-example.onrender.com/ which is hosted on render.
+
+Here is how it looks.
 
 ![image](https://github.com/importsaas/screenshots/raw/main/dashboard/apikeys-1.png)
 

@@ -8,11 +8,11 @@ You can see the final result on https://importsaas-dashboard-demo.onrender.com/ 
 
 ## What does setting `REACT_APP_GOOGLE_CLIENT_ID` env on this repo do? 
 
-if you want to allow google based login, Set the `.env` 
+if you want to allow Google based login, Set the `.env` 
 
     REACT_APP_GOOGLE_CLIENT_ID=xxxxx.apps.googleusercontent.com
 
-Once deployed with this env, (and your domain set in Google), your users will need to authenticate to access the private pages.
+Once deployed with this env, (and your domain set in Google), your users will need to be login to access the private pages.
 Example at https://importsaas-dashboard-example.onrender.com
 
 ![image](https://github.com/importsaas/screenshots/raw/main/dashboard/apikeys-1.png)

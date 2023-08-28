@@ -6,19 +6,20 @@ This repo can be cloned, or  click the `use this template` to create your own re
 
 You can see the final result on https://importsaas-dashboard-demo.onrender.com/ which is hosted on Render
 
-## What does setting REACT_APP_GOOGLE_CLIENT_ID env on this repo do? 
+## What does setting `REACT_APP_GOOGLE_CLIENT_ID` env on this repo do? 
 
 if you want to allow google based login, Set the `.env` 
 
     REACT_APP_GOOGLE_CLIENT_ID=xxxxx.apps.googleusercontent.com
 
-Once deployed, you can get Google Authenticated. example at https://importsaas-dashboard-example.onrender.com
+Once deployed with this env, (and your domain set in Google), your users will need to authenticate to access the private pages.
+Example at https://importsaas-dashboard-example.onrender.com
+
+![image](https://github.com/importsaas/screenshots/raw/main/dashboard/apikeys-1.png)
 
 # How it works?
 
 In other words, with this package in your React app - a few lines of code automagically adds the following pages to your React app
-
-![image](https://github.com/importsaas/screenshots/raw/main/dashboard/apikeys-1.png)
 
 - /settings
 - /apikeys
